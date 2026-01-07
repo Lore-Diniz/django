@@ -1,0 +1,43 @@
+/* Configurações Gerais */
+body {
+    padding-left: 15px;
+    font-family: 'Lobster', cursive; /* Fonte do cabeçalho */
+    background-color: #f8f8f8;
+}
+
+
+.page-header {
+    background-color: #080cff;
+    margin-top: 0;
+    padding: 20px 20px 20px 40px;
+}
+
+.page-header h1, .page-header h1 a, .page-header h1 a:visited, .page-header h1 a:active {
+    color: #ffffff;
+    font-size: 36pt;
+    text-decoration: none;
+}
+
+/* Estilo dos Posts */
+.post {
+    margin-bottom: 70px;
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.post h2 a, .post h2 a:visited {
+    color: #333333;
+    text-decoration: none;
+}
+
+.date {
+    color: #828282;
+    float: right;
+}
+
+.content {
+    font-family: 'Open Sans', sans-serif;
+    line-height: 1.6;
+}
